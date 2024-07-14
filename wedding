@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #d24d57;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #d24d57;
+        }
+        .section-content {
+            font-size: 1.2em;
+        }
+        .program, .contacts {
+            list-style: none;
+            padding: 0;
+        }
+        .program li, .contacts li {
+            margin-bottom: 10px;
+        }
+        .rsvp {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .rsvp a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #d24d57;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .rsvp a:hover {
+            background-color: #b43a44;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Приглашение на свадьбу</h1>
+
+        <div class="section">
+            <div class="section-content">
+                <p>Дорогие друзья и близкие!</p>
+                <p>Мы, <strong>[Имя невесты]</strong> и <strong>[Имя жениха]</strong>, с радостью приглашаем вас на наше торжество по случаю заключения брака!</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Дата и время:</div>
+            <div class="section-content">
+                <p><strong>[Дата свадьбы]</strong><br>
+                <strong>[Время начала церемонии]</strong></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Место проведения:</div>
+            <div class="section-content">
+                <p><strong>[Название и адрес места проведения]</strong></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Программа дня</h2>
+            <ul class="program">
+                <li><strong>[Время]</strong> — Регистрация брака</li>
+                <li><strong>[Время]</strong> — Торжественная церемония</li>
+                <li><strong>[Время]</strong> — Праздничный ужин</li>
+                <li><strong>[Время]</strong> — Танцы и развлечения</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Контактная информация</h2>
+            <ul class="contacts">
+                <li>Телефон: <strong>[Телефонный номер]</strong></li>
+                <li>Email: <strong>[Email]</strong></li>
+            </ul>
+        </div>
+
+        <div class="rsvp">
+            <p>Пожалуйста, подтвердите свое присутствие до <strong>[дата подтверждения]</strong>:</p>
+            <a href="[Ссылка на форму для подтверждения присутствия]">RSVP</a>
+        </div>
+    </div>
+</body>
+</html>
